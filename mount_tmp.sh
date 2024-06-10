@@ -10,6 +10,7 @@ swapon /dev/sda2
 mount /dev/sda3 /mnt/gentoo
 
 lsblk
+echo mounting extra...
 
 mount --types proc /proc /mnt/gentoo/proc
 mount --rbind /sys /mnt/gentoo/sys
